@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>支持与帮助 - CJ Chrome Lab</title>
-  <meta name="description" content="CJ Chrome Lab 插件使用支持和常见问题。">
+  <title>支持 - CJ Chrome Lab</title>
+  <meta name="description" content="CJ Chrome Lab 插件使用帮助和常见问题。">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -23,8 +23,8 @@
   <main>
     <section class="page-hero">
       <span class="eyebrow">Support</span>
-      <h1>支持与帮助</h1>
-      <p class="hero-copy">这里放用户最常遇到的问题。正式上线后，可以把邮箱、飞书表单或反馈链接加到这里。</p>
+      <h1>使用支持</h1>
+      <p class="hero-copy">这里整理两个插件的上手流程、API Key 说明和常见问题。</p>
     </section>
 
     <section class="article">
@@ -32,40 +32,32 @@
         <h2>第一次使用</h2>
         <ol>
           <li>安装 Chrome 插件。</li>
-          <li>打开插件设置页。</li>
-          <li>填写 DeepSeek API Key。</li>
-          <li>打开目标网页，点击插件或右键菜单开始使用。</li>
+          <li>打开目标网页，点击插件图标或右键菜单。</li>
+          <li>简阅可直接使用每天 10 次免费额度。</li>
+          <li>红势目前需要在设置页填写 DeepSeek API Key 后使用。</li>
         </ol>
 
-        <h3>找不到 API Key 设置入口？</h3>
-        <p>点击浏览器工具栏里的插件图标，再点击“设置”；也可以在侧边栏提示中点击“去设置”。</p>
+        <h3>简阅是否必须填写 API Key？</h3>
+        <p>不必须。简阅默认每天可免费总结 10 次。高级用户可以在设置页填写自己的 DeepSeek API Key，填写后将使用个人 API 额度。</p>
 
-        <h3>为什么需要 API Key？</h3>
-        <p>当前版本使用你自己的 DeepSeek API Key 发起 AI 请求。这样成本由你自己掌握，插件本身不托管你的 Key。</p>
+        <h3>红势为什么需要 API Key？</h3>
+        <p>红势是内容分析工具，当前版本使用你自己的 DeepSeek API Key 发起 AI 分析请求。这样成本由你自己掌握，插件不会托管你的 Key。</p>
 
         <h3>网页自动提取失败怎么办？</h3>
-        <p>某些网页结构比较特殊，自动提取可能失败。你可以复制正文，打开侧边栏手动粘贴后继续总结或分析；如果小红书正文在图片里，可以上传或粘贴截图，用图文识别提取文字后再分析。</p>
+        <p>部分网页会限制内容提取。你可以选中文本后右键总结，或者复制内容粘贴到插件侧边栏里处理。</p>
 
-        <h3>OCR.space API Key 不填可以用吗？</h3>
-        <p>可以用于少量流程测试，但 public test key 不稳定。更建议申请自己的 OCR.space 免费 Key；免费测试时单图建议小于 1MB。</p>
+        <h3>小红书图片文字读取不到怎么办？</h3>
+        <p>红势 Pro 测试版支持截图 OCR。你可以上传、拖拽或粘贴截图，让插件先识别图片文字，再进入爆款分析。</p>
 
-        <h3>反馈问题时请提供什么？</h3>
-        <ul>
-          <li>插件名称和版本号</li>
-          <li>你使用的网页类型</li>
-          <li>出错截图或提示文案</li>
-          <li>你期望得到的结果</li>
-        </ul>
-
-        <h3>反馈入口</h3>
-        <p>正式上线后建议放一个邮箱或表单，例如：support@example.com。当前页面已预留这个位置。</p>
+        <h3>如何删除本地数据？</h3>
+        <p>在插件设置页清空 API Key，或从 Chrome 扩展管理页删除插件，即可移除本地存储的数据。</p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <span>CJ Chrome Lab Support</span>
+      <span>CJ Chrome Lab · Support</span>
       <div class="footer-links"><a href="index.html">首页</a><a href="privacy.html">隐私</a></div>
     </div>
   </footer>
