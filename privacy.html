@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>隐私说明 - CJ Chrome Lab</title>
+  <meta name="description" content="CJ Chrome Lab 插件隐私说明。">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html"><span class="brand-mark">CJ</span><span>CJ Chrome Lab</span></a>
+      <div class="nav-links">
+        <a href="index.html#plugins">插件</a>
+        <a href="xhs-viral.html">红势</a>
+        <a href="ai-summarizer.html">简阅</a>
+        <a href="support.html">支持</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <span class="eyebrow">Privacy</span>
+      <h1>隐私说明</h1>
+      <p class="hero-copy">我们的原则很简单：只在你主动触发功能时处理内容，不做广告追踪，不收集浏览历史。</p>
+    </section>
+
+    <section class="article">
+      <div class="article-card">
+        <h2>会发送哪些数据？</h2>
+        <p>当你使用总结或分析功能时，插件会把你选择处理的文本发送到 DeepSeek API。例如网页正文、选中文本、手动粘贴内容、小红书笔记文本、搜索结果标题，或截图 OCR 识别后的文字。</p>
+
+        <h3>截图 OCR 会发送什么？</h3>
+        <p>红势的图文识别功能只会在你主动上传、拖拽或粘贴截图，并点击识别时，把该图片发送到 OCR.space 做文字识别。识别结果会先显示给你确认或修改，再进入 AI 分析。</p>
+
+        <h3>API Key 如何保存？</h3>
+        <p>DeepSeek API Key 保存在 Chrome 扩展本地存储中，用于向 DeepSeek 发起请求。它不会发送到我们自有服务器。</p>
+
+        <h3>本地会保存什么？</h3>
+        <ul>
+          <li>DeepSeek API Key</li>
+          <li>OCR.space API Key（如果你填写）</li>
+          <li>语言偏好或使用次数</li>
+          <li>短期缓存，用于减少重复请求</li>
+          <li>你主动加入的小红书分析篮内容</li>
+        </ul>
+
+        <h3>不会做什么？</h3>
+        <ul>
+          <li>不售卖用户数据</li>
+          <li>不做广告追踪</li>
+          <li>不持续监控网页</li>
+          <li>不收集完整浏览历史</li>
+        </ul>
+
+        <h3>如何删除数据？</h3>
+        <p>你可以在插件设置页清空 API Key，在插件界面清空分析篮，或直接从 Chrome 删除扩展来移除本地数据。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>Last updated: 2026-06-16</span>
+      <div class="footer-links"><a href="index.html">首页</a><a href="support.html">支持</a></div>
+    </div>
+  </footer>
+</body>
+</html>
