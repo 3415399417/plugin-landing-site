@@ -364,6 +364,50 @@ h1 {
   color: #243142;
 }
 
+.product-icon-large {
+  width: 76px;
+  height: 76px;
+  border-radius: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 10px 24px rgba(232, 63, 111, .18);
+}
+
+.screenshot-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.screenshot-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 26px rgba(23, 32, 42, .08);
+}
+
+.screenshot-card img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  background: #eef2f7;
+}
+
+.screenshot-card div {
+  padding: 14px 16px 16px;
+}
+
+.screenshot-card h3 {
+  margin: 0 0 6px;
+  font-size: 17px;
+}
+
+.screenshot-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
 .trust-band {
   background: #15202b;
   color: #fff;
@@ -441,7 +485,7 @@ h1 {
   .hero { padding-top: 38px; }
   .hero-visual { min-height: auto; }
   .mock-grid { grid-template-columns: 1fr; }
-  .plugin-grid, .faq { grid-template-columns: 1fr; }
+  .plugin-grid, .faq, .screenshot-grid { grid-template-columns: 1fr; }
   .trust-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 

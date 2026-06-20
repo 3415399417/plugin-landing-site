@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>红势 - 小红书爆款分析 - CJ Chrome Lab</title>
-  <meta name="description" content="红势 Chrome 插件：拆解小红书笔记标题、结构、爆款因子、复刻建议、截图 OCR、分析篮和带题复刻。">
+  <meta name="description" content="红势 Chrome 插件：拆解小红书笔记标题、结构、证据引用、复刻建议、截图 OCR、分析篮和带题复刻。">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -26,30 +26,65 @@
       <span class="eyebrow">小红书创作者工具</span>
       <h1>红势</h1>
       <p class="page-subtitle">小红书爆款分析</p>
-      <p class="hero-copy">拆解小红书爆款笔记的标题钩子、内容结构、爆款因子和复刻风险。免费每天 5 次，API Key 可选。</p>
+      <p class="hero-copy">拆解小红书笔记的标题钩子、内容结构、证据引用、可信度、复刻建议和改写模板。免费每天 5 次，API Key 可选。</p>
+      <div class="actions">
+        <a class="button primary" href="#screenshots">查看界面</a>
+        <a class="button" href="support.html">使用说明</a>
+      </div>
     </section>
 
     <section class="section">
       <div class="detail">
         <div class="screen">
-          <div class="browser-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="address">hongshi side panel</span></div>
+          <div class="browser-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="address">红势侧边栏</span></div>
           <div class="screen-body">
-            <div class="screen-row"><div class="screen-label">评分</div><div class="screen-value">钩子 88 · 情绪 76 · 结构 92 · 可复刻 89</div></div>
-            <div class="screen-row"><div class="screen-label">因子</div><div class="screen-value">情绪共鸣、认知颠覆、可复制性、社交货币</div></div>
-            <div class="screen-row"><div class="screen-label">复刻</div><div class="screen-value">推荐复刻结构，不照搬案例和承诺</div></div>
-            <div class="screen-row"><div class="screen-label">创作</div><div class="screen-value">输入自己的想法，结合爆款结构生成新笔记</div></div>
+            <div class="screen-row"><div class="screen-label">评分</div><div class="screen-value">钩子 85 · 情绪 80 · 结构 75 · 可复刻 70</div></div>
+            <div class="screen-row"><div class="screen-label">可信度</div><div class="screen-value">基于当前可见文本，标注缺失上下文</div></div>
+            <div class="screen-row"><div class="screen-label">证据</div><div class="screen-value">引用原文短句支撑判断，减少空泛结论</div></div>
+            <div class="screen-row"><div class="screen-label">复刻</div><div class="screen-value">推荐 / 谨慎推荐 / 不推荐，并说明不能照搬什么</div></div>
+            <div class="screen-row"><div class="screen-label">输出</div><div class="screen-value">标题公式、开头模板、正文骨架、下一步动作</div></div>
           </div>
         </div>
         <div class="detail-panel">
-          <h3>从“看懂爆文”到“写出自己的内容”。</h3>
+          <h3>从“看懂爆款”到“写出自己的内容”。</h3>
           <ul class="feature-list">
-            <li>单篇分析：输出评分、结构拆解、爆款因子、复刻建议和改写模板</li>
-            <li>搜索结果：批量提取标题和可见互动数，总结标题规律</li>
-            <li>分析篮：把多篇笔记放在一起，找共性和可复制套路</li>
-            <li>图文识别：上传、拖拽或粘贴截图，识别图片里的文字后分析</li>
-            <li>带题复刻：输入自己的选题、产品或观点，结合爆款结构生成创作方案</li>
+            <li>单篇分析：输出评分、结构拆解、证据引用、可信度和复刻建议</li>
+            <li>截图 OCR：上传、拖拽或粘贴截图，识别图片里的文字后分析</li>
+            <li>搜索结果：批量选择笔记，总结高频标题结构和样本共性</li>
+            <li>分析篮：把多篇笔记放在一起，找出可复用套路</li>
+            <li>带题复刻：输入自己的选题、产品或观点，生成创作方案和草稿</li>
           </ul>
         </div>
+      </div>
+    </section>
+
+    <section class="section" id="screenshots">
+      <div class="section-header">
+        <h2>真实插件界面</h2>
+        <p class="section-lead">这些截图展示了红势的主要工作流：输入内容、查看分析结果、复刻改写、搜索批量分析。</p>
+      </div>
+      <div class="screenshot-grid">
+        <article class="screenshot-card">
+          <img src="assets/screenshots/hongshi-workflow.png" alt="红势输入分析和结果界面">
+          <div>
+            <h3>输入并分析</h3>
+            <p>粘贴笔记文本或上传截图，点击分析后查看评分、证据引用和复刻建议。</p>
+          </div>
+        </article>
+        <article class="screenshot-card">
+          <img src="assets/screenshots/hongshi-rewrite.png" alt="红势复刻建议与改写模板">
+          <div>
+            <h3>复刻建议与改写模板</h3>
+            <p>看懂哪些地方值得学，哪些地方不能照搬，再生成可执行写作动作。</p>
+          </div>
+        </article>
+        <article class="screenshot-card">
+          <img src="assets/screenshots/hongshi-batch.png" alt="红势搜索结果批量分析">
+          <div>
+            <h3>搜索批量分析</h3>
+            <p>从搜索页批量选择笔记，提炼高频标题结构和样本共性。</p>
+          </div>
+        </article>
       </div>
     </section>
 
@@ -59,8 +94,8 @@
       </div>
       <div class="steps">
         <div class="step"><div><strong>安装后直接使用</strong><span>每天可免费分析 5 次，无需先填写 API Key。</span></div></div>
-        <div class="step"><div><strong>打开小红书页面</strong><span>支持笔记页、搜索结果页、手动粘贴文本和截图 OCR。</span></div></div>
-        <div class="step"><div><strong>开始分析</strong><span>查看结构、评分、复刻建议、爆款因子和模板。</span></div></div>
+        <div class="step"><div><strong>打开小红书页面</strong><span>支持笔记详情、搜索结果、手动粘贴文本和截图 OCR。</span></div></div>
+        <div class="step"><div><strong>开始分析</strong><span>查看结构、评分、可信度、证据引用、复刻建议和改写模板。</span></div></div>
         <div class="step"><div><strong>带题复刻</strong><span>输入你的想法，让插件结合爆款结构生成一篇新内容。</span></div></div>
       </div>
     </section>
